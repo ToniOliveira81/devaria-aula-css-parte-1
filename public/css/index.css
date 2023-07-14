@@ -1,0 +1,40 @@
+/* estilos do index */
+.cover-container figure img {
+    width: 100%;
+}
+
+main h3.title {
+    font-size: 1.2em;
+}
+
+/*para dar uma cor diferente as abreviacões abbr*/
+main section abbr {
+    color: #25cbd3;
+}
+
+/*mudando o blockquote justificando o texto da citação*/
+.text-justify {
+    text-align: justify;
+}
+
+/*para configurar a versão desktop*/
+@media screen and (min-width: 992px) {
+    .cover-container {
+        width: 40%;
+    }
+
+    .cover-container,
+    .section-video {
+        display: inline-block;
+    }
+
+    main .section-azure blockquote {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+
+
+}
